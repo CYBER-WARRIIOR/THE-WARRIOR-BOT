@@ -7249,46 +7249,8 @@ break
 └┬❖  ${pushname} 
  ✑  ${xeonytimewisher} 😄 
   └────────────┈ ▱╼❲⭐❳
-${readmore}
-
- ⏤͟͟͞͞★ 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑 ꗄ➺
  
-${mot} 𝗕𝗼𝘁 : ${botname}
-${mot} 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-${mot} 𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-${mot} 𝗠𝗼𝗱𝗲 : ${XliconBotInc.public ? 'Public' : `Self`}
-${mot} 𝗣𝗹𝘂𝗴𝗶𝗻𝘀: ${Xliconfeature()}
-${mot} 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-${mot} 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-${mot} 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : *_SalmanSer Server_*
-${mot} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-
-
- ⏤͟͟͞͞★ 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 ꗄ➺
-
-${mot} 𝗡𝗮𝗺𝗲 : ${pushname}
-${mot} 𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-${mot} 𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-${mot} 𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-${mot} 𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-
- 
-⏤͟͟͞͞★ 𝐓𝐈𝐌𝐄 𝐈𝐍𝐅𝐎 ꗄ➺ 
-
-${mot} 𝗧𝗶𝗺𝗲 : ${xtime}
-${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
-
-⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕
-   
-│✑  Please Type The *MENU*
-│✑  Given *BELOW*
-   
-    『 *_MENU_* 』
-    
-╭⏤͟͟͞͞★
+╭━༻𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹༺━─
 │➛ ${xprefix}ᴀʟʟᴍᴇɴᴜ
 │➛ ${xprefix}ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
 │➛ ${xprefix}ғᴜɴᴍᴇɴᴜ
