@@ -480,9 +480,9 @@ return arr[Math.floor(Math.random() * arr.length)]
                   if (!('badword' in chats)) chats.badword = false
                   if (!('antiforeignnum' in chats)) chats.antiforeignnum = false
                   if (!('antibot' in chats)) chats.antibot = false
-                  if (!('antiviewonce' in chats)) chats.antiviewonce = false
-                  if (!('antimedia' in chats)) chats.media = false
-                  if (!('antivirtex' in chats)) chats.antivirtex = false
+                  if (!('antiviewonce' in chats)) chats.antiviewonce = true
+                  if (!('antimedia' in chats)) chats.media = true
+                  if (!('antivirtex' in chats)) chats.antivirtex = true
                   if (!('antiimage' in chats)) chats.antiimage = false
                   if (!('antivideo' in chats)) chats.video = false
                   if (!('antiaudio' in chats)) chats.antiaudio = false
@@ -492,12 +492,12 @@ return arr[Math.floor(Math.random() * arr.length)]
                   if (!('antilocation' in chats)) chats.antilocation = false
                   if (!('antidocument' in chats)) chats.antidocument = false
                   if (!('antilink' in chats)) chats.antilink = false
-                  if (!('antilinkgc' in chats)) chats.antilinkgc = false
+                  if (!('antilinkgc' in chats)) chats.antilinkgc = true
                } else global.db.data.chats[from] = {
                   badword: false,
                   antiforeignnum: false,
                   antibot: false,
-                  antiviewonce: false,
+                  antiviewonce: true,
                   antivirtex: false,
                   antimedia: false,
                   antiimage: false,
@@ -509,7 +509,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                   antidocument: false,
                   anticontact: false,
                   antilink: false,
-                  antilinkgc: false
+                  antilinkgc: true,
                }
             
             let setting = global.db.data.settings[botNumber]
@@ -2948,7 +2948,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/c8JJBZZ/peakpx-2.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/UP8asN7.mp4',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -7419,16 +7419,7 @@ if (typemenu === 'v1') {
 break
             case 'allmenu': {
 let xmenu_oh = `*_HI_*...👋🏻 *${pushname}*
-
-┌⟝———ᙍ ɪɴꜰᴏ ᙊ
-┃ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
-┃ *ᴘʟᴜɢɪɴs* : ${Xliconfeature()}
-┃ *ᴘʀᴇғɪx* :  [ ${prefix} ]
-┃ *ᴠᴇʀsɪᴏɴ* : 3.0.5
-┃ *ᴍᴏᴅᴇ* : ${XliconBotInc.public ? 'Public' : `Self`}
-┃ *ᴛʏᴘᴇ sᴄʀɪᴘᴛ* : ɴᴏᴅᴇ_ᴊs
-┃ *ʜᴏsᴛ* : ᴋᴀʟɪʟɪɴᴜx
-└⟝————ᙍᙊ
+ : 𝑪𝒀𝑩𝑬𝑹_𝑾𝑨𝑹𝑹𝑰𝑶𝑹
         \n${readmore}\n\n${allmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XliconBotInc.sendMessage(m.chat, {
